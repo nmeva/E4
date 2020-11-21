@@ -60,8 +60,8 @@
 ```
 
 
-### *3.This code block shows the DROPOUT variable, we can set it to 0.2:
-We can do that before calling the model or while calling the model:(previous code is commented)
+### *3.This code block shows the DROPOUT variable, we can set it to 0.2:*
+We can do that before calling the model or while calling the model:*(previous code is commented)*
 
 ``` python
 INPUT_DIM = len(TEXT.vocab)
@@ -102,4 +102,4 @@ print(f'Test Loss: {test_loss:.3f} | Test Acc: {test_acc*100:.0f}%')
 ````
 Test Loss: 0.315 | Test Acc: 87%
 
-### [6.Colab File Link](https://colab.research.google.com/drive/1EaY67rczy0g9ib6staw7ljH1Jagb09Bt?usp=sharing)
+### 6.[Colab File Link](https://colab.research.google.com/drive/1EaY67rczy0g9ib6staw7ljH1Jagb09Bt?usp=sharing)
